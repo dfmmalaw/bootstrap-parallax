@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Your Brand Name</a>
+              <img src="img/logo2.png" alt="" /><a class="navbar-brand" href="#"></a>
             </div>
         
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
@@ -32,9 +32,9 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#information">Information</a></li>
-                <li><a href="#google_map">Contact</a></li>
-                <li><a href="https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/">Back to tutorial</a></li>
+                <li><a href="#information">Resume</a></li>
+                <li><a href="#map">Contact</a></li>
+                <li><a href="https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/">Blog</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -139,7 +139,7 @@
         <!-- /fifth section -->
         
         <!-- google map -->
-        <div id="google_map"></div>
+        <div id="map"></div>
         <!-- /google map -->
         
         <!-- footer -->
@@ -152,9 +152,9 @@
         <!-- /footer -->
         
         <!--These are the necessary Javascript CDN's-->
-        <script src="js/jquery-1.10.2.js"></script>
+        <script src="/main.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="//maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="js/main.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
     </body>
 </html>

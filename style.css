@@ -1,3 +1,13 @@
+/*this vertically centers the header links after the logo makes it too wide*/
+.navbar-nav li a {
+  line-height: 50px;
+}
+
+/*this vertically centers the logo on the bootstrapped header*/
+.navbar-header img {
+  padding-top: 7px;
+}
+
 /* general styles */
 html, body {
   height: 100%;
@@ -27,7 +37,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../img/surf2.jpg) no-repeat center center fixed; 
+  background: url(../img/Slide2.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -58,7 +68,7 @@ html, body {
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed; 
+  background: url(../img/Slide.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
   position: relative;
@@ -72,7 +82,12 @@ html, body {
   opacity: 0.85;
 }
 
-#google_map {
+/*#google_map {*/
+/*  height: 500px;*/
+/*}*/
+
+#map {
+  /*width: 500px;*/
   height: 500px;
 }
 
@@ -86,3 +101,12 @@ footer .glyphicon {
 footer .glyphicon:hover {
   color: #306d9f;
 }
+
+.h1, h1 {
+  color: white;
+}
+
+.h3, h3 {
+  color: white;
+}
+
