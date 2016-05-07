@@ -1,11 +1,45 @@
-/*this vertically centers the header links after the logo makes it too wide*/
-.navbar-nav li a {
-  line-height: 50px;
+/*this changed a heading text color to white*/
+.h1, h1 {
+  color: white;
 }
 
-/*this vertically centers the logo on the bootstrapped header*/
-.navbar-header img {
-  padding-top: 7px;
+/*this changed another heading text color to white*/
+.h3, h3 {
+  color: white;
+}
+
+/*this vertically centered the navbar links after the logo made navbar too wide*/
+.navbar-nav li a {
+  line-height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/*this centers the logo on the navbar*/
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -160px;
+    }
+}
+
+/*this pushed the left navbar links to the right */
+.navbar-left {
+  padding-left: 75px;
+}
+
+/*this pushed the right navbar links to the left*/
+.navbar-right {
+  padding-right: 75px;
 }
 
 /* general styles */
@@ -82,10 +116,6 @@ html, body {
   opacity: 0.85;
 }
 
-/*#google_map {*/
-/*  height: 500px;*/
-/*}*/
-
 #map {
   /*width: 500px;*/
   height: 500px;
@@ -102,11 +132,8 @@ footer .glyphicon:hover {
   color: #306d9f;
 }
 
-.h1, h1 {
-  color: white;
+body {
+  padding-top: 65px;
 }
 
-.h3, h3 {
-  color: white;
-}
 
