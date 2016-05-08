@@ -4,7 +4,7 @@
 }
 
 /*this changed another heading text color to white*/
-.h3, h3 {
+.home-intro {
   color: white;
 }
 
@@ -51,9 +51,15 @@ html, body {
 /* padded section */
 .pad-section {
   padding: 100px 0;
+  font-weight: bold;
 }
 .pad-section img {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  /*this add rounded corners to the image*/
+  border-radius: 25px;
+  /*Box-shadow: offset-x | offset-y | blur-radius | spread-radius (0 if not specified) | color*/
+  box-shadow: 5px 15px 6px -7px #121212;
 }
 
 /* vertical-centered text */
