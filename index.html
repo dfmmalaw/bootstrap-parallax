@@ -170,10 +170,19 @@
         </footer>
         <!-- /footer -->
         
+        
+        
         <!--These are the necessary Javascript CDN's-->
         <script src="/main.js"></script>
         <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+        <!--since there is no src attribute in the script tag it is called an inline script and that is what the below jquery is-->
+        <script>
+            /*hide all the content of the body*/
+            $('body').hide(); 
+            /*fade-in the content of the body over 2000 milliseconds (2 seconds)*/
+            $('body').fadeIn(2000); 
+        </script>
     </body>
 </html>

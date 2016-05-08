@@ -6,8 +6,6 @@ function initMap() {
             });
           }
 
-
-
 // $(document).ready(function (){
 
 //   // create a LatLng object containing the coordinate for the center of the map
