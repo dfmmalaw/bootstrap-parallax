@@ -8,9 +8,17 @@
         <!--These point to the CSS styling-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" />
-        <!--elastic portfolio plugin style-->
-        <link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css"
+        <link rel="stylesheet" type="text/css" href="grid/css/elastic_grid.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!--These are all javascript dependencies-->
+        <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+        <script src="typed.js"></script>
+        <script src="main.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+        <script src="grid/js/modernizr.custom.js"></script>
+        <script src="grid/js/classie.js"></script>
+        <script type="text/javascript" src="grid/js/elastic_grid.min.js"></script>
     </head>
     
     <body>
@@ -50,7 +58,7 @@
         <div id="home" class="home">
           <div class="text-vcenter">
             <h1>Dean Friedland</h1>
-            <h3 class="home-intro">I Am Developer</h3>
+            <h3 class="home-intro"></h3>
             <a href="#about" class="btn btn-default btn-lg">Continue</a>
           </div>
         </div>
@@ -176,12 +184,6 @@
         <!-- /footer -->
         
         
-        
-        <!--These are the necessary Javascript CDN's-->
-        <script src="/main.js"></script>
-        <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
         <!--since there is no src attribute in the script tag it is called an inline script and that is what the below jquery is-->
         <script>
             /*hide all the content of the body*/
