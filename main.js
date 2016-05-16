@@ -15,39 +15,6 @@ function initMap() {
   });
 }
 
-// this gives the effects to the portfolio
-$(function(){
-  $("#elastic_grid_demo").elastic_grid({
-    'items' :
-    [
-      
-      {
-        'title'          : 'Title #1',
-        'description'    : 'Description goes here',
-        'thumbnail'      : ['img/jits.jpg', 'img/surf5.jpg'],
-        'large'          : ['img/jits.jpg', 'img/surf5.jpg'],
-        'button_list'    : 
-        [
-          {'title': 'Demo', 'url': 'http://tip-it.tech'},
-          {'title': 'Download', 'url': 'http://github.com/dfmmalaw'}
-        ]
-      },
-      
-      {
-        'title'          : 'Title #2',
-        'description'    : 'Description goes here',
-        'thumbnail'      : ['img/surf4.jpg', 'img/surf3.jpg'],
-        'large'          : ['img/surf4.jpg', 'img/surf3.jpg'],
-        'button_list'    : 
-        [
-          {'title': 'Demo', 'url': 'http://tip-it.tech'},
-          {'title': 'Download', 'url': 'http://github.com/dfmmalaw'}
-        ]
-      },
-      
-    ]
-  });
-});
 
 // $(document).ready(function (){
 
