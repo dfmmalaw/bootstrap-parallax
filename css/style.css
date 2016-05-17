@@ -85,6 +85,10 @@ html, body {
   padding: 0;
 }
 
+#family {
+  padding-bottom: 30px;
+}
+
 /* additional sections */
 #home {
   background: url(../img/Slide2.jpg) no-repeat center center fixed; 
@@ -153,3 +157,8 @@ body {
 }
 
 
+#og-grid img {
+  /*border-radius: 25px;*/
+  border: 2px solid grey;
+  bottom: 40px
+}
