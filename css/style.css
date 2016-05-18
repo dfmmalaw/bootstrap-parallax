@@ -14,7 +14,7 @@
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bold;
-  font-size: medium;
+  font-size: large;
 }
 
 /*this horizontally centers the logo on the navbar*/
@@ -121,7 +121,7 @@ html, body {
   width: 140px;
 }
 
-#information {
+#portfolio {
   background: url(../img/Slide.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
@@ -132,6 +132,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 #information .panel {
   opacity: 0.85;
 }
@@ -156,9 +157,13 @@ body {
   padding-top: 65px;
 }
 
-
 #og-grid img {
   /*border-radius: 25px;*/
   border: 2px solid grey;
-  bottom: 40px
+  bottom: 40px;
+}
+
+/*this adds color to the text in the portfolio*/
+#portfolio-text {
+  color: white;  
 }
